@@ -1,9 +1,8 @@
 # Code your solution here!
 def run_guessing_game
-  input = gets.chomp.to_s
+  computer_number = rand(1..6)
   puts "Guess a number between 1 and 6"
-  
-  computer_number = 1+rand(6)
+  input = gets.chomp
   if input == computer_number
     return "You guessed the correct number!"
   elsif input != roll
