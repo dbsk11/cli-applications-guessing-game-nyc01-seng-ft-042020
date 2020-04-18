@@ -1,7 +1,8 @@
 # Code your solution here!
 def run_guessing_game
-  puts "Guess a number between 1 and 6"
   input = gets.chomp.to_s
+  puts "Guess a number between 1 and 6"
+  
   computer_number = 1+rand(6)
   if input == computer_number
     return "You guessed the correct number!"
@@ -9,7 +10,7 @@ def run_guessing_game
     return "The computer guessed #{roll}."
   elsif input == "exit"
     puts "Goodbye!"
-  else 
+    els
     "Invalid input"
   end
 end
