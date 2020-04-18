@@ -10,4 +10,5 @@ def run_guessing_game
   elsif user_input.downcase == "exit"
     puts "Goodbye!"
   end
+  binding.pry
 end
