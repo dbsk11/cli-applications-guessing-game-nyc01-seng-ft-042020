@@ -9,7 +9,5 @@ def run_guessing_game
     return "Sorry! The computer guessed #{roll}."
   elsif input == "exit"
     puts "Goodbye!"
-    els
-    "Invalid input"
   end
 end
