@@ -7,7 +7,8 @@ def run_guessing_game
     return "You guessed the correct number!"
   else
     return "Sorry! The computer guessed #{computer_number}."
-  elsif user_input.downcase == "exit"
-    puts "Goodbye!"
   end
+  # elsif user_input.downcase == "exit"
+  #   puts "Goodbye!"
+  # end
 end
