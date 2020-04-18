@@ -2,7 +2,7 @@
 def run_guessing_game
   computer_number = rand(1..6)
   puts "Guess a number between 1 and 6"
-  input = gets.chomp
+  user_input = gets.chomp
   if input == computer_number
     return "You guessed the correct number!"
   elsif input != roll
